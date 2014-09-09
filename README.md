@@ -6,10 +6,12 @@ OVERVIEW
 --------
 
 This code provides an implementation of the research paper:
- 
->  Geodesic Finite Mixture Models
->  E. Simo-Serra, C. Torras, and F. Moreno-Noguer
->  British Machine Vision Conference (BMVC), 2014
+
+```
+  Geodesic Finite Mixture Models
+  E. Simo-Serra, C. Torras, and F. Moreno-Noguer
+  British Machine Vision Conference (BMVC), 2014
+```
 
 This allows clustering of data that is located on a known Riemannian manifold. Some highlights of the algorithm:
 
