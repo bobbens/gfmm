@@ -55,7 +55,7 @@ function [ samples ] = gfmm_sample( mix, n, expF )
 
       if nsamp > 0;
          % Sample
-         Tsamp = randn( nsamp, dT ) * mix.sigma( :, :, idsw(i) );
+         Tsamp = mvnrand( zeros(1,dT), mix.sigma( :, :, idsw(i) ), nsamp );
 
          % Project to manifold
          Msamp = expF( Tsamp, mix.mu( :, idsw(i) ) );
