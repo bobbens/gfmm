@@ -121,7 +121,7 @@ If you use this code please consider citing:
 Changelog
 ---------
 
-August 2016: Incorporated improvements from IJCV paper for 2.0 release
-September 2014: Initial version 1.0 release
+* August 2016: Incorporated improvements from IJCV paper for 2.0 release
+* September 2014: Initial version 1.0 release
 
 
