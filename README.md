@@ -13,6 +13,14 @@ This code provides an implementation of the research paper:
   British Machine Vision Conference (BMVC), 2014
 ```
 
+and improvements provided in
+
+```
+  3D Human Pose Tracking Priors using Geodesic Mixture Models
+  E. Simo-Serra, C. Torras, and F. Moreno-Noguer
+  International Journal of Computer Vision, 2016
+```
+
 This allows clustering of data that is located on a known Riemannian manifold. Some highlights of the algorithm:
 
 * Generative model
@@ -24,7 +32,7 @@ License
 -------
 
 ```
-  Copyright (C) <2014> <Edgar Simo-Serra>
+  Copyright (C) <2014-2016> <Edgar Simo-Serra>
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the version 3 of the GNU General Public License
@@ -37,8 +45,8 @@ License
   You should have received a copy of the GNU General Public License
   along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-  Edgar Simo-Serra, Institut de Robotica i Informatica Industrial (CSIC/UPC), September 2014.
-  esimo@iri.upc.edu, http://www-iri.upc.es/people/esimo/
+  Edgar Simo-Serra, Waseda University, August 2016.
+  esimo@aoni.waseda.jp, http://hi.cs.waseda.ac.jp/~esimo/
 ```
 
 
@@ -86,7 +94,7 @@ You should get some output as follows:
 
 Additionally some figures will show results and progress.
 
-If you use this code please cite:
+If you use this code please consider citing:
 
 ```
  @InProceedings{SimoSerraBMVC2014,
@@ -97,10 +105,23 @@ If you use this code please cite:
  }
 ```
 
+```
+ @Article{SimoSerraIJCV2016,
+    author    = {Edgar Simo-Serra and Carme Torras and Francesc Moreno Noguer},
+    title     = {{3D Human Pose Tracking Priors using Geodesic Mixture Models}},
+    journal   = {International Journal of Computer Vision (IJCV)},
+    volume    = {},
+    number    = {},
+    pages     = {},
+    year      = 2016,
+ }
+```
+
 
 Changelog
 ---------
 
+August 2016: Incorporated improvements from IJCV paper for 2.0 release
 September 2014: Initial version 1.0 release
 
 
